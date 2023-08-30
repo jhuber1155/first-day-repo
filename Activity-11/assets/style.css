@@ -1,0 +1,28 @@
+.box {
+    width: 200px;
+    height: 100px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#section-1 {
+    font-size: 26px;
+    color: #ffff00;
+    background-color: #800080;
+}
+
+.section-blue {
+    line-height: 100px;
+    color: #ffa500;
+    background-color: #0000ff;
+}
+
+.container {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: white;
+    background-color: black;
+}
+
+#section-6 {
+    color: #ffff00;
+
+}

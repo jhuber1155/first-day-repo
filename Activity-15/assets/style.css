@@ -1,0 +1,69 @@
+p{
+    line-height: 25px;
+}
+
+.box-1 {
+    width: 80%;
+    background-color: #f6e9c9;
+    font-size:large;
+    font-weight: 600;
+    margin-left: 10%;
+}
+
+.box-2 { 
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    margin-right: 5px;
+}
+
+.inline {
+    text-align: center;
+    font-weight:bold;
+}
+
+#header {
+    line-height: 2px;
+}
+
+.lightblue {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.goldenrod {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+#lightbluetext {
+    color: #181510;
+    font-size: medium;
+    font-weight: 100;
+    background-color: lightblue;
+}
+
+#goldenrodtext {
+    color: #181510;
+    font-size: medium;
+    font-weight: 100;
+    background-color: goldenrod;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

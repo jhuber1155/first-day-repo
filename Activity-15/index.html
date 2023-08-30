@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/style.css">
+        <title>HTML Display</title>
+    </head>
+
+    <body>
+        <h1 class="inline">CSS Display Property</h1>
+    
+        <section class="box-1">
+            <section class="inline">
+                <h2>Inline Elements</h2>
+                <h3 id="header">do not start on a new line</h3>
+                <h3 id="header">and only take up as much width as necessary</h3>
+            </section>
+            <section>
+                <p>Anchor elements</p>
+                <a id="lightbluetext" href="#">MDN Web Docs on Inline Elements</a>
+                <a id="goldenrodtext" href="#">MDN Web Docs on Block-Level Elements</a>
+                <p>Image elements</p>
+            </section>
+            <div class="row">
+                <section class="box-2 lightblue">
+                    <h3>200w</h3>
+                </section>
+                <section class="box-2 goldenrod">
+                    <h3>200w</h3>
+                </section>
+            </div>
+        </section>
+       
+        <section class="box-1">
+            <section class="inline">
+                <h2>Block Elements</h2>
+                <h3>always start on a new line and take up the full width available</h3>
+            </section>
+            <section>
+                <p>Paragraph elements</p>
+                <p id="lightbluetext">This is a paragraph</p>
+                <p id="goldenrodtext">This is a paragraph with <strong>BOLDED TEXT.</strong></p>
+            </section>
+            <section>
+                <p>Unordered list</p>
+                    <ul>
+                        <li id="lightbluetext">This is list item one</li>
+                        <li id="goldenrodtext">This is list item two</li>
+                    </ul>
+            </section>
+        </section>
+
+        <section class="box-1">
+            <section class="inline">
+                <h2>display:inline</h2>
+                <h3>changes a block element's property to inline.</h3>
+            </section>
+            <section>
+                <p>Paragraph element with display:inline</p>
+                <p><span id="lightbluetext">This is a paragraph.</span><span id="goldenrodtext">This is a paragraph with <strong>BOLDED TEXT.</strong></span></p>
+            </section>
+        </section>
+        
+        <section class="box-1">
+            <section class="inline">
+                <h2>display:block</h2>
+                <p>Image elements with display:block</p>
+            </section>
+        <div class="column">
+            <section class="box-2 lightblue">
+                <h3>200h</h3>
+            </section>
+            <section class="box-2 goldenrod">
+                <h3>200h</h3>
+            </section>
+        </div>
+        </section>
+
+        <section class="box-1">
+            <section class="inline">
+                <h2>display:none</h2>
+                <h3>hides an element.</h3>
+            </section>
+            <section>
+                <p>Unordered list with display:none</p>
+                <br>
+            </section>
+        </section>
+    </body>
+</html>

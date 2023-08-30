@@ -1,0 +1,21 @@
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body{
+    background-color: lemonchiffon;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 60px;
+    color: white;
+    background-color: blue;
+}
+
+#orange {
+    color: blue;
+    background-color: orange;
+}

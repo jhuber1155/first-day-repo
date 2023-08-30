@@ -1,0 +1,18 @@
+.lesson {
+    background-color: lemonchiffon;
+}
+
+#first-line {
+    color: blue;
+    background-color: gray;
+}
+
+#second-line {
+    color: blue;
+    background-color: orange;
+}
+
+#third-line {
+    color: white;
+    background-color: blue;
+}
